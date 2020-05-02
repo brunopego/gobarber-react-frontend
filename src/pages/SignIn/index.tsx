@@ -13,7 +13,7 @@ import Button from '../../components/Button';
 
 import { Container, Content, Background } from './styles';
 
-const SingIn: React.FC = () => {
+const SignIn: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
   const handleSubmit = useCallback(async (data: object) => {
@@ -68,4 +68,4 @@ const SingIn: React.FC = () => {
   );
 };
 
-export default SingIn;
+export default SignIn;
